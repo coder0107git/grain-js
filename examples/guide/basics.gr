@@ -1,0 +1,6 @@
+module Main
+
+let someNumber = 42
+let someBoolean = true
+// We can also use the `and` keyword to declare multiple bindings in sequence
+let someString = "Welcome to Grain!" and someChar = 'A'

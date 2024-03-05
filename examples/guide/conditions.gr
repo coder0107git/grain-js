@@ -1,0 +1,18 @@
+module Main
+
+let expr = true
+let result = if (expr) {
+  print("got into if branch")
+  "true branch"
+} else {
+  print("got into else branch")
+  "false branch"
+}
+
+print(result) // true branch
+
+
+
+
+let expr = false
+print(if (expr) "true branch" else "false branch") // false branch

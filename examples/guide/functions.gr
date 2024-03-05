@@ -1,0 +1,10 @@
+module Main
+
+let addTo = num1 => {
+  num2 => {
+    num1 + num2
+  }
+}
+
+let addTo5 = addTo(5)
+print(addTo5(10)) // 15
